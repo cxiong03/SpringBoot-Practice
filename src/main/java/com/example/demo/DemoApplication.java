@@ -16,8 +16,8 @@ public class DemoApplication {
 	}
 
 	@GetMapping
-	public String hello() {
-		return "Hello World";
+	public List<String> hello() {
+		return List.of("Hello", "World");
 	}
 
 }
